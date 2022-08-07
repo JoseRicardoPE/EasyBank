@@ -79,7 +79,7 @@ body {
 .nav__links--close{
   position: absolute;
   display: block;
-  background-color: crimson;
+  background-color: var(--Dark-Blue);
   color: white;
   text-decoration: none;
   width: 25px;
@@ -87,7 +87,7 @@ body {
   line-height: 25px;
   text-align: center;
   border-top-right-radius: 6px;
-  top: 0px;
+  top: 0;
   right: 0;
 }
 
@@ -399,6 +399,10 @@ body {
     display: flex;
     gap: 1em;
     height: 100%;
+  }
+
+  .nav__links--close{
+    visibility: hidden;
   }
 
   .nav__link{
